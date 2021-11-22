@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background: url('img/bg1.jpg') no-repeat center;
+  background-size: cover;
+  font-family: sans-serif;
+}
+.container {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.login-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.firebaseui-container {
+  background-color: rgba(0, 0, 0, 0.3) ;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: red;
+  direction: ltr;
+  font: 16px Roboto, arial, sans-serif;
+  margin: 0 auto;
+  max-width: 340px;
+  min-height: 230px;
+  position: absolute;
+  right: 30%;
+  top: 20px;
+
+  /** This is needed for the invisible reCAPTCHA badge to show. */
+  overflow: visible;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+.firebaseui-title,
+.firebaseui-subtitle {
+  color: #FF8C00;
+  direction: ltr;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  
+}
+.firebaseui-label {
+  color: #FF8C00;
+  direction: ltr;
+  font-size: 16px;
+  text-align: left;
+}
+
+.firebaseui-textfield.mdl-textfield .firebaseui-label::after {
+  background-color: lime;
+}
+
+
+.firebaseui-button {
+  display: inline-block;
+  height: 36px;
+  margin-left: 8px;
+  min-width: 88px;
+  background-color: rgba(0, 0, 0, 0.4);
+  }
